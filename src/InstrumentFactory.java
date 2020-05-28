@@ -1,6 +1,7 @@
 public class InstrumentFactory {
 
     public Instrument GetInstrument(String type,String tone){
+        // Instrument logic
         switch(type)
         {
             case "Flute":
